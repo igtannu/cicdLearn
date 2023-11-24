@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-25T01:18:58 IST" name="Suite" finished-at="2023-11-25T01:19:21 IST" duration-ms="22815">
+    <groups>
+    </groups>
+    <test started-at="2023-11-25T01:18:58 IST" name="Test" finished-at="2023-11-25T01:19:21 IST" duration-ms="22815">
+      <class name="test.LoginCICDTest">
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:test.LoginCICDTest@3d74bf60]" started-at="2023-11-25T01:18:59 IST" name="initializeWebDriver" finished-at="2023-11-25T01:19:02 IST" duration-ms="2821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method is-config="true" signature="openurl()[pri:0, instance:test.LoginCICDTest@3d74bf60]" started-at="2023-11-25T01:19:02 IST" name="openurl" finished-at="2023-11-25T01:19:17 IST" duration-ms="15166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="login(java.lang.reflect.Method)[pri:0, instance:test.LoginCICDTest@3d74bf60]" started-at="2023-11-25T01:19:17 IST" name="login" finished-at="2023-11-25T01:19:21 IST" duration-ms="4371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.LoginCICDTest.login(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.LoginCICDTest@3d74bf60]" started-at="2023-11-25T01:19:21 IST" name="closeBrowser" finished-at="2023-11-25T01:19:22 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.LoginCICDTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
