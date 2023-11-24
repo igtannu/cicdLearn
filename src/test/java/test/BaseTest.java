@@ -24,7 +24,6 @@ public class BaseTest {
 	static File file=new File("./src/test/resources/browser-config.properties");
 	static FileInputStream fis = null;
 	static Properties prop = new Properties();  
-	Logger log=Logger.getLogger(BaseTest.class);
 
 	
 static {
@@ -66,7 +65,7 @@ public void openurl() {
 
 @AfterSuite
 public void closeBrowser() {
-	  log.info("******************CLOSE BROWSER*******************");
+	  Log.info("******************CLOSE BROWSER*******************");
 	browser.BrowserHandle.getDriver().quit();
 
 }

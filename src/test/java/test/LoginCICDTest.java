@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import pom.LoginCICDPOM;
 import utils.ExtentTestManager;
+import utils.Log;
 
 public class LoginCICDTest extends BaseTest{
 	LoginCICDPOM loginPOm=new LoginCICDPOM();
@@ -14,6 +15,7 @@ public class LoginCICDTest extends BaseTest{
    @Test
   public void login(Method method) {
 	   ExtentTestManager.startTest(method.getName(), "LOGIN");
+	   Log.info(method.getName());
 	loginPOm.userId().sendKeys("mngr540414");
 	loginPOm.password().sendKeys("eqabUpu");
 	loginPOm.login().click();
