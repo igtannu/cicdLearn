@@ -19,9 +19,7 @@ public class LoginCICDTest extends BaseTest{
 	loginPOm.userId().sendKeys("mngr540414");
 	loginPOm.password().sendKeys("eqabUpu");
 	loginPOm.login().click();
-	Assert.assertTrue(loginPOm.verifyLogin().isDisplayed());
-
-	
+	Assert.assertFalse(loginPOm.verifyLogin().isDisplayed());
   }
 }
   
