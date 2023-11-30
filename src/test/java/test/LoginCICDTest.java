@@ -9,7 +9,7 @@ import pom.LoginCICDPOM;
 import utils.ExtentTestManager;
 import utils.Log;
 
-public class LoginCICDTest extends BaseTest{
+public class LoginCICDTest extends Base{
 	LoginCICDPOM loginPOm=new LoginCICDPOM();
 	
    @Test

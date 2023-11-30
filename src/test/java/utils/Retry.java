@@ -10,7 +10,7 @@ import org.testng.ITestResult;
 
 import com.aventstack.extentreports.Status;
 
-import test.BaseTest;
+import test.Base;
 
 public class Retry implements IRetryAnalyzer {
     private        int count  = 0;
@@ -33,7 +33,7 @@ public class Retry implements IRetryAnalyzer {
 
     public void extendReportsFailOperations(ITestResult iTestResult) {
         Object testClass = iTestResult.getInstance();
-        WebDriver webDriver = ((BaseTest) testClass).getDriver();
+        WebDriver webDriver = ((Base) testClass).getDriver();
         String base64Screenshot = "data:image/png;base64," + ((TakesScreenshot) webDriver).getScreenshotAs(OutputType.BASE64);
         ExtentTestManager. getTest().log(Status.FAIL, "Test Failed",
         		ExtentTestManager.getTest().addScreenCaptureFromBase64String(base64Screenshot).getModel().getMedia().get(0));

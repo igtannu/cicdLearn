@@ -18,7 +18,7 @@ import browser.BrowserHandle;
 import utils.Log;
 
 
-public class BaseTest {
+public class Base {
 	
 	static WebDriver driver;
 	static File file=new File("./src/test/resources/browser-config.properties");
@@ -45,7 +45,7 @@ static {
 
 //@Parameters("browserName")
 @BeforeClass
-public  void initializeWebDriver()
+public  void initializeWebDriver() throws Exception
 {
 	Log.info("intaialise browser");
 	BrowserHandle.settingBrowser("chrome");
@@ -73,6 +73,8 @@ public void closeBrowser() {
 public WebDriver getDriver() {
 	return BrowserHandle.getDriver();
 }
+
+
 
 	
 }
