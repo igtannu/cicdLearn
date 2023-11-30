@@ -32,12 +32,12 @@ static {
 			fis = new FileInputStream(file);
 		} catch (FileNotFoundException e) {
 			
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
 		try {
 			prop.load(fis);       
 		} catch (IOException e) {
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
 	}
 
