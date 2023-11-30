@@ -1,26 +1,8 @@
-[INFO ] 2023-11-25 00:43:32.806 [main] Log - I am in onStart method Test
-[INFO ] 2023-11-25 00:43:32.823 [main] Log - intaialise browser
-[INFO ] 2023-11-25 00:43:34.446 [main] Log - ******************LAUNCH URL*******************
-[INFO ] 2023-11-25 00:43:44.648 [main] Log - login test is starting.
-[INFO ] 2023-11-25 00:43:46.544 [main] Log - login test is succeed.
-[INFO ] 2023-11-25 00:43:46.559 [main] Log - I am in onFinish method Test
-[INFO ] 2023-11-25 00:44:35.228 [main] Log - I am in onStart method Test
-[INFO ] 2023-11-25 00:44:35.246 [main] Log - intaialise browser
-[INFO ] 2023-11-25 00:44:36.884 [main] Log - ******************LAUNCH URL*******************
-[INFO ] 2023-11-25 00:44:45.928 [main] Log - login test is starting.
-[INFO ] 2023-11-25 00:44:48.089 [main] Log - login test is failed.
-[INFO ] 2023-11-25 00:44:48.335 [main] Log - I am in onFinish method Test
-[INFO ] 2023-11-25 00:50:28.228 [main] Log - I am in onStart method Test
-[INFO ] 2023-11-25 00:50:28.248 [main] Log - intaialise browser
-[INFO ] 2023-11-25 00:50:29.982 [main] Log - ******************LAUNCH URL*******************
-[INFO ] 2023-11-25 00:50:40.682 [main] Log - login test is starting.
-[INFO ] 2023-11-25 00:50:43.852 [main] Log - login test is succeed.
-[INFO ] 2023-11-25 00:50:43.892 [main] Log - I am in onFinish method Test
-[INFO ] 2023-11-25 01:18:59.336 [main] Log - I am in onStart method Test
-[INFO ] 2023-11-25 01:18:59.367 [main] Log - intaialise browser
-[INFO ] 2023-11-25 01:19:02.187 [main] Log - ******************LAUNCH URL*******************
-[INFO ] 2023-11-25 01:19:17.354 [main] Log - login test is starting.
-[INFO ] 2023-11-25 01:19:17.494 [main] Log - login
-[INFO ] 2023-11-25 01:19:21.725 [main] Log - login test is succeed.
-[INFO ] 2023-11-25 01:19:21.732 [main] Log - I am in onFinish method Test
-[INFO ] 2023-11-25 01:19:21.988 [main] Log - ******************CLOSE BROWSER*******************
+[INFO ] 2023-11-30 20:07:07.790 [main] Log - I am in onStart method Test
+[INFO ] 2023-11-30 20:07:07.814 [main] Log - intaialise browser
+[INFO ] 2023-11-30 20:07:10.538 [main] Log - ******************LAUNCH URL*******************
+[INFO ] 2023-11-30 20:07:15.709 [main] Log - login test is starting.
+[INFO ] 2023-11-30 20:07:15.916 [main] Log - login
+[INFO ] 2023-11-30 20:07:19.488 [main] Log - login test is failed.
+[INFO ] 2023-11-30 20:07:19.793 [main] Log - I am in onFinish method Test
+[INFO ] 2023-11-30 20:07:20.298 [main] Log - ******************CLOSE BROWSER*******************
