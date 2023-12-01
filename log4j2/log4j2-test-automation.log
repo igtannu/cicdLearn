@@ -1,8 +1,4 @@
-[INFO ] 2023-11-30 20:07:07.790 [main] Log - I am in onStart method Test
-[INFO ] 2023-11-30 20:07:07.814 [main] Log - intaialise browser
-[INFO ] 2023-11-30 20:07:10.538 [main] Log - ******************LAUNCH URL*******************
-[INFO ] 2023-11-30 20:07:15.709 [main] Log - login test is starting.
-[INFO ] 2023-11-30 20:07:15.916 [main] Log - login
-[INFO ] 2023-11-30 20:07:19.488 [main] Log - login test is failed.
-[INFO ] 2023-11-30 20:07:19.793 [main] Log - I am in onFinish method Test
-[INFO ] 2023-11-30 20:07:20.298 [main] Log - ******************CLOSE BROWSER*******************
+[INFO ] 2023-12-01 09:57:19.867 [main] Log - intaialise browser
+[INFO ] 2023-12-01 09:57:23.454 [main] Log - ******************LAUNCH URL*******************
+[INFO ] 2023-12-01 09:57:30.529 [main] Log - login
+[INFO ] 2023-12-01 09:57:32.373 [main] Log - ******************CLOSE BROWSER*******************

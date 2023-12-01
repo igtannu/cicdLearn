@@ -5,10 +5,10 @@
     <classes>
       <class name="test.LoginCICDTest">
         <methods>
-          <include name="initializeWebDriver"/>
-          <include name="login"/>
           <include name="closeBrowser"/>
+          <include name="initializeWebDriver"/>
           <include name="openurl"/>
+          <include name="login"/>
         </methods>
       </class> <!-- test.LoginCICDTest -->
     </classes>
