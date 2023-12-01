@@ -12,6 +12,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BrowserHandle  {
 
+	public static final String BrowserStackUSername="tanugupta_NtS6mv";
+			public static final String BrowserStackPassword="UCC6sofoi1CnekWq14YX";
+			public static final String BrowserStackURL="https://"+BrowserStackUSername+":"
+			+BrowserStackPassword+"@hub-cloud.browserstack.com/wd/hub";
+					
 	
 	static final WebDriver driver = null;
 	 static WebDriverWait wait = null;
@@ -19,13 +24,25 @@ public class BrowserHandle  {
 
 	public static WebDriver settingBrowser(String browser) throws Exception {
 		// Setup Seleneium Grid......
-		 DesiredCapabilities dc = new DesiredCapabilities();	
-		 dc.setBrowserName(browser);
-		dc.setPlatform(Platform.WIN11);
-		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.5:4444/wd/hub"),dc);
-		tlDriver.set(driver);
+//		 DesiredCapabilities dc = new DesiredCapabilities();	
+//		 dc.setBrowserName(browser);
+//		dc.setPlatform(Platform.WIN11);
+//		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.5:4444/wd/hub"),dc);
+//		tlDriver.set(driver);
 		// end Selenium Grid setup 
 		
+		
+		
+		// Setup BrowserStack
+		
+		 DesiredCapabilities dc = new DesiredCapabilities();	
+		 dc.setBrowserName(browser);
+			dc.setPlatform(Platform.WIN11);
+			dc.setVersion("102");
+
+		WebDriver driver = new RemoteWebDriver(new URL(BrowserStackURL),dc);
+		tlDriver.set(driver);
+
 		//Run two commnd on cmd.....
 		// for hub -- java -jar selenium-server-4.15.0.jar hub
 		//java -jar selenium-server-4.15.0.jar node
